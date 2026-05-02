@@ -8,7 +8,7 @@ const {
 const fs = require('fs');
 
 // ===== CONFIG =====
-const TOKEN = 'YOUR_BOT_TOKEN';
+const TOKEN = process.env.TOKEN;
 const SHINEE_ID = '123456789012345678'; // user OR role ID
 const COOLDOWN_MS = 5000;
 
